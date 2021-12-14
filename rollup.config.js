@@ -8,10 +8,12 @@ const production = !process.env.ROLLUP_WATCH;
 export default {
   input: "./src/index.ts",
   output: {
-    file: "./public/build/bundle.js"
+    file: "./public/build/bundle.js",
+    format: 'iife',
+    name: "app"
   },
   plugins: [
-    production && terser(),
+    production && terser({ format: { comments: false } }),
     nodeResolve(),
     typescript()
   ],

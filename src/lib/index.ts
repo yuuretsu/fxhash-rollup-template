@@ -1,1 +1,1 @@
-export let val = 5;
+export default "world";

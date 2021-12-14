@@ -1,3 +1,3 @@
-console.log(`random value: ${fxrand()}`);
-console.log(hashes);
-console.log(b58dec('aa'));
+import name from "./lib";
+
+console.log(`hello, ${name}! Random value: ${fxrand()}`);
