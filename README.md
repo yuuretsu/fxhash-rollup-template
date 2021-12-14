@@ -1,6 +1,6 @@
 # Rollup template for fxhash
 
-1. (optional) add typescript
+1. (optional) add typescript or delete directory `./scripts`
 
    `node ./scripts/setup-typescript.js`
 
