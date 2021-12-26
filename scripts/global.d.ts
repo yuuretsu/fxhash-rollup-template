@@ -6,6 +6,7 @@ declare let regex: RegExp;
 declare let hashes: string;
 declare function sfc32(a: number, b: number, c: number, d: number): () => number;
 declare function fxrand(): number;
+declare function fxpreview(): void;
 
 interface Window {
   $fxhashFeatures: { [key: string]: any }
